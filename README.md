@@ -56,7 +56,15 @@ Once your `config.json` is set up, run the following command inside the `src/` d
 npx sequelize db:create
 ```
 
-### 5. Start the service
+### 5. Run Migrations
+
+Run Sequelize migrations to create the necessary tables:
+
+```bash
+npx sequelize db:migrate
+```
+
+### 6. Start the service
 
 Now start the server:
 
